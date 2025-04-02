@@ -1,12 +1,12 @@
 export const portfolioConfig = {
   // Basic Information
-  name: "Md Taqui Imam",
+  name: "Marc Dominic Terrobias",
   title: "Software Engineer",
   description: "I am a Passionate Software Developer",
-  location: "Ramgarh cantt, Jharkhand, India",
+  location: "Quezon City, Philippines",
 
   // Contact Information
-  email: "taquiimam@example.com", // Replace with actual email if available
+  email: "marci.terrobias@gmail.com", // Replace with actual email if available
 
   // Social Media Links
   socialLinks: {
@@ -20,7 +20,7 @@ export const portfolioConfig = {
   // SEO Information
   seo: {
     ogImage: "https://mdtaquiimam.vercel.app/og-image.png",
-    url: "https://mdtaquiimam.vercel.app",
+    url: "https://marct-portfolio.vercel.app",
     twitterHandle: "@Taquiimam14",
     keywords: [
       "md",
@@ -62,17 +62,17 @@ export const portfolioConfig = {
 
   // About Information
   about: {
-    bio: "I am a Full Stack Web Developer from Ramgarh cantt, Jharkhand, India. I'm passionate about crafting web projects and contributing to open-source communities. I specialize in modern JavaScript frameworks and responsive CSS design, focusing on creating pixel-perfect, user-friendly interfaces. With strong attention to detail and efficient delivery, I build seamless web experiences that combine functionality with elegant design.",
+    bio: "I am a Full Stack Web Developer from Quezon City, Philippines. I'm passionate about crafting web projects and contributing to open-source communities. I specialize in modern JavaScript frameworks and responsive CSS design, focusing on creating pixel-perfect, user-friendly interfaces. With strong attention to detail and efficient delivery, I build seamless web experiences that combine functionality with elegant design.",
     hobbies: [
       "Coding",
       "Playing Games",
       "Watching Anime",
-      "Tech Blog Writing",
-      "Creating Cool Projects",
+      "Traveling",
+      "Eating",
     ],
     personalInfo: {
-      language: "English UK",
-      nationality: "India",
+      language: ["English","Tagalog"],
+      nationality: "Filipino",
       gender: "Male",
     },
   },
