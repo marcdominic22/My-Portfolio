@@ -1,46 +1,60 @@
-# Getting Started with Create React App
+# Project Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and Beautiful Porfolio made with Nextjs and Shadcn Ui.
 
-## Available Scripts
+![Demo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/u7eq68h0uvs6xqgw3yqe.jpeg)
 
-In the project directory, you can run:
+## Getting Started
 
-### `yarn start`
+First, run the development server:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### `yarn test`
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-### `yarn build`
+## Configuration
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project uses a centralized configuration approach for all personal information. The main configuration file is located at:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+src/config/portfolio.config.ts
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Configuration Structure
 
-### `yarn eject`
+The configuration file contains the following sections:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- **Basic Information**: Name, title, description, location
+- **Contact Information**: Email and other contact details
+- **Social Media Links**: Links to various social media profiles
+- **SEO Information**: Keywords, metadata, and SEO-related settings
+- **About Information**: Bio, hobbies, and personal details
+- **Skills**: Programming languages, frameworks, tools, and professional roles
+- **Education**: Academic background and qualifications
+- **Projects**: Portfolio of projects with descriptions and links
+- **More Links**: Additional external links and resources
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Customizing Your Portfolio
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To personalize the portfolio, simply edit the values in the `portfolio.config.ts` file. All changes will be reflected throughout the site automatically without having to modify multiple files.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Example usage in a component:
 
-## Learn More
+```typescript
+import { portfolioConfig } from "@/config/portfolio.config";
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+// Access configuration values
+const { name, title } = portfolioConfig;
+```
