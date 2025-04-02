@@ -81,10 +81,10 @@ export const portfolioConfig = {
   skills: {
     roles: [
       "Freelancer",
-      "Blogger",
+      "Developer",
       "Gamer",
-      "Creator",
-      "Student",
+      "API Specialist",
+      "Automation",
       "Contributer",
     ],
     // Technical Skills
@@ -183,10 +183,10 @@ export const portfolioConfig = {
   // Education Information
   education: [
     {
-      degree: "Bachelor of Computer Application",
-      institution: "Ranchi University Jharkhand",
-      location: "Doranda College Ranchi",
-      period: "July 2023 - 2026",
+      degree: "Bachelor of Science in Information System",
+      institution: "Technological University of the Philippines",
+      location: "Kalaw, Manila",
+      period: "2014 - 2018",
       description:
         "I am currently Studying Bachelor of Computer Application form Doranda College Ranchi a Goverment College of Ranchi. The program has provided me with a well-rounded education, covering both theoretical foundations and practical applications of computer science.",
     },
