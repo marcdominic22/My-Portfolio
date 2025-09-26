@@ -5,6 +5,7 @@ import {
   Twitter,
   ExternalLink,
   Github,
+  Mail,
 } from "lucide-react";
 import { buttonVariants } from "./ui/button";
 import Link from "next/link";
@@ -29,9 +30,9 @@ const SocialLinks = () => {
       icon: <Linkedin />,
     },
     {
-      name: "External",
-      link: portfolioConfig.socialLinks.external,
-      icon: <ExternalLink />,
+      name: "Mail",
+      link: portfolioConfig.socialLinks.gmail,
+      icon: <Mail />,
     },
     {
       name: "Github",

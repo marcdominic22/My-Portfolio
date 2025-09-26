@@ -10,35 +10,27 @@ export const portfolioConfig = {
 
   // Social Media Links
   socialLinks: {
-    facebook: "https://www.facebook.com/shahina.khatun.1044",
-    twitter: "https://twitter.com/Taquiimam14",
-    linkedin: "https://www.linkedin.com/in/taqui-imam",
+    facebook: "https://www.facebook.com/marcdominic22",
+    twitter: "https://twitter.com/marcdominic22",
+    linkedin: "www.linkedin.com/in/marc-dominic-t-b7259918a",
     external: "https://tinyurl.com/MdTaquiImam",
-    github: "https://github.com/taqui-786", // Assuming this is the GitHub link
+    github: "https://github.com/marcdominic22",
+    gmail: "mailto:marci.terrobias@gmail.com", // Assuming this is the GitHub link
   },
 
   // SEO Information
   seo: {
     ogImage: "https://mdtaquiimam.vercel.app/og-image.png",
     url: "https://marct-portfolio.vercel.app",
-    twitterHandle: "@Taquiimam14",
+    twitterHandle: "@marcdominic22",
     keywords: [
-      "md",
-      "taqui",
-      "imam",
-      "Md",
-      "MD",
-      "TAQUI",
-      "Taqui",
-      "Imam",
-      "Imam",
-      "Md Taqui Imam",
-      "md taqui imam",
-      "mdtaqui",
-      "mdtaquiimam",
-      "taqui imam",
-      "Taqui Imam",
-      "Taquiimam",
+      "marc single",
+      "dominic",
+      "marc dominic terrobias",
+      "marc terrobias",
+      "Marc Inzon",
+      "marc inzon",
+      "marcinzon",
       "portfolio",
       "web developer",
       "web",
@@ -48,14 +40,14 @@ export const portfolioConfig = {
       "programmer ",
       "MD TAQUI IMAM ",
       "website",
-      "@Taquiimam",
-      "Taquiimam",
-      "taqui developer",
+      "@marcdominic22",
+      "marcinzon",
+      "marc developer",
     ],
     authors: [
       {
-        name: "Taqui Imam",
-        url: "https://github.com/taqui-786",
+        name: "Marc Dominic Terrobias",
+        url: "https://github.com/marcdominic22",
       },
     ],
   },
@@ -67,6 +59,7 @@ export const portfolioConfig = {
       "Coding",
       "Playing Games",
       "Watching Anime",
+      "Watching Movies",
       "Traveling",
       "Eating",
     ],
@@ -74,6 +67,7 @@ export const portfolioConfig = {
       language: ["English","Tagalog"],
       nationality: "Filipino",
       gender: "Male",
+      country: "Philippines",
     },
   },
 
@@ -85,7 +79,7 @@ export const portfolioConfig = {
       "Gamer",
       "API Specialist",
       "Automation",
-      "Contributer",
+      "Contributor",
     ],
     // Technical Skills
     programmingLanguages: [
@@ -188,7 +182,7 @@ export const portfolioConfig = {
       location: "Kalaw, Manila",
       period: "2014 - 2018",
       description:
-        "I am currently Studying Bachelor of Computer Application form Doranda College Ranchi a Goverment College of Ranchi. The program has provided me with a well-rounded education, covering both theoretical foundations and practical applications of computer science.",
+        "I finish my Bachelor's Degree in Information System at TUP Manila(Technological University of the Philippines) a State University. The program has provided me with a well-rounded education, covering both theoretical foundations and practical applications of Information System.",
     },
   ],
 

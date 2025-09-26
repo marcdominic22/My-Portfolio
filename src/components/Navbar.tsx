@@ -46,6 +46,13 @@ const Navbar = () => {
       href: '/skills',
     },
     {
+      title: 'Experiences',
+      icon: (
+        <Briefcase className='h-full w-full ' />
+      ),
+      href: '/experience',
+    },
+    {
       title: 'Education',
       icon: (
         <GraduationCap className='h-full w-full ' />
@@ -67,13 +74,13 @@ const Navbar = () => {
       ),
       href: '/contact',
     },
-    {
-      title: 'More',
-      icon: (
-        <MoreHorizontal className='h-full w-full ' />
-      ),
-      href: '/more',
-    },
+    // {
+    //   title: 'More',
+    //   icon: (
+    //     <MoreHorizontal className='h-full w-full ' />
+    //   ),
+    //   href: '/more',
+    // },
   ];
   const [scrolling, setScrolling] = useState(false);
   const pathname = usePathname()
