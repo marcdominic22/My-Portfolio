@@ -16,7 +16,7 @@ const experiencePage = () => {
         <Heading>My Work Experience</Heading>
       </div>
       <div className="w-full h-fit flex flex-col">
-        {portfolioConfig.education.map((edu, index) => (
+        {portfolioConfig.workExperience.map((exp, index) => (
           <div className="w-full h-fit flex" key={index}>
             <FramerWrapper
               y={0}
@@ -24,7 +24,7 @@ const experiencePage = () => {
               delay={0.35 + index * 0.1}
               className="w-1/4 font-rubik flex items-center justify-evenly text-lg max-sm:text-base"
             >
-              {edu.period}
+              {exp.period}
             </FramerWrapper>
             <FramerWrapper
               y={0}
@@ -32,11 +32,21 @@ const experiencePage = () => {
               delay={0.35 + index * 0.1}
               className="relative w-3/4 border-l-4 border-l-[#3c3c3c] p-4 gap-3 education_point"
             >
-              <div className="text-2xl font-rubik max-sm:text-xl">
-                {edu.degree}, <br /> {edu.institution}
+              <div className="flex items-center gap-4">
+                <img
+                  src={exp.icon}
+                  alt={exp.Company}
+                  className="w-16 h-16 object-contain rounded-md"
+                />
+                <div className="text-2xl font-rubik max-sm:text-xl">
+                  {exp.Company}
+                </div>
               </div>
               <p className="font-poppins text-base w-full text-primary max-sm:text-xs">
-                {edu.description}
+                {exp.description}
+              </p>
+              <p className="font-poppins font-bold text-base w-full text-primary max-sm:text-xs">
+                {exp.workType}
               </p>
             </FramerWrapper>
           </div>

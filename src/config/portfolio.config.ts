@@ -84,6 +84,14 @@ export const portfolioConfig = {
     // Technical Skills
     programmingLanguages: [
       {
+        name: "C#",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+      },
+      {
+        name: "VB.net",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg",
+      },
+      {
         name: "HTML5",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
       },
@@ -103,35 +111,11 @@ export const portfolioConfig = {
         name: "C++",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
       },
-      {
-        name: "Python",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-      },
-      {
-        name: "Java",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
-      },
     ],
     frameworks: [
       {
         name: "React",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-      },
-      {
-        name: "Next.js",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-      },
-      {
-        name: "Vue.js",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
-      },
-      {
-        name: "Svelte",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg",
-      },
-      {
-        name: "Tailwind CSS",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
       },
       {
         name: "Bootstrap",
@@ -164,12 +148,44 @@ export const portfolioConfig = {
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
       },
       {
-        name: "MongoDB",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+        name: "Sql Server",
+        icon: "https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg",
       },
       {
         name: "PostgreSQL",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+      },
+      {
+        name: "Jira",
+        icon: "https://www.vectorlogo.zone/logos/atlassian_jira/atlassian_jira-icon.svg",
+      },
+      {
+        name: "Notion",
+        icon: "https://cdn.simpleicons.org/notion/000000",
+      },
+      {
+        name: "Slack",
+        icon: "https://www.vectorlogo.zone/logos/slack/slack-icon.svg",
+      },
+      {
+        name: "Swagger",
+        icon: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/swagger.svg",
+      },
+      {
+        name: "Lucid",
+        icon: "https://www.vectorlogo.zone/logos/lucidchart/lucidchart-icon.svg",
+      },
+      {
+        name: "Azure",
+        icon: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg",
+      },
+      {
+        name: "AWS",
+        icon: "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg",
+      },
+      {
+        name: "ORM(Entity Framework & Dapper)",
+        icon: "https://cdn.simpleicons.org/sequelize/52B0E7",
       },
     ],
   },
@@ -183,6 +199,37 @@ export const portfolioConfig = {
       period: "2014 - 2018",
       description:
         "I finish my Bachelor's Degree in Information System at TUP Manila(Technological University of the Philippines) a State University. The program has provided me with a well-rounded education, covering both theoretical foundations and practical applications of Information System.",
+    },
+  ],
+
+  // Work Experience Information
+  workExperience: [
+    {
+      Company: "Realbase",
+      location: "Kalaw, Manila",
+      period: "2020 - 2025",
+      description:
+        "I finish my Bachelor's Degree in Information System at TUP Manila(Technological University of the Philippines) a State University. The program has provided me with a well-rounded education, covering both theoretical foundations and practical applications of Information System.",
+      workType: "Fulltime",
+      icon: "/icons/realbase_logo-nobg.png",
+    },
+    {
+      Company: "Wing",
+      location: "Kalaw, Manila",
+      period: "2024 - 2025",
+      description:
+        "I finish my Bachelor's Degree in Information System at TUP Manila(Technological University of the Philippines) a State University. The program has provided me with a well-rounded education, covering both theoretical foundations and practical applications of Information System.",
+      workType: "Parttime",
+      icon: "/icons/wing.png",
+    },
+    {
+      Company: "Medilink Network Inc",
+      location: "Kalaw, Manila",
+      period: "2018 - 2020",
+      description:
+        "I finish my Bachelor's Degree in Information System at TUP Manila(Technological University of the Philippines) a State University. The program has provided me with a well-rounded education, covering both theoretical foundations and practical applications of Information System.",
+      workType: "Fulltime",
+      icon: "/icons/medilink.png",
     },
   ],
 

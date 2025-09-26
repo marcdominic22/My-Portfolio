@@ -8,9 +8,13 @@ import HackerBtn from './animation/HackerBtn'
 function DownLoadResumeBtn() {
   return (
     <div className="h-fit w-full mt-2 py-2 px-4">
-  
-    <HackerBtn label='Download Resume' />
-  </div>
+      <a 
+        href="/resume.pdf" // put your resume file inside /public as resume.pdf
+        download="Marc_Terrobias_Resume.pdf" 
+      >
+        <HackerBtn label="Download Resume" />
+      </a>
+    </div>
   )
 }
 
