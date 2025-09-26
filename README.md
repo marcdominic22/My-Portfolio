@@ -2,7 +2,8 @@
 
 A simple and Beautiful Porfolio made with Nextjs and Shadcn Ui.
 
-![Demo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/u7eq68h0uvs6xqgw3yqe.jpeg)
+![Demo](<img width="1919" height="874" alt="image" src="https://github.com/user-attachments/assets/ea579225-4d7f-405f-a89f-af8433c9f86a" />
+)
 
 ## Getting Started
 
